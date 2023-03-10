@@ -1,4 +1,4 @@
-import UserSchema from "./UserSchema";
+import UserSchema from "./UserSchema.js";
 
 export const authenticateUserMiddleware = async (req, res, next) => {
   console.log(req.headers.authorization);
